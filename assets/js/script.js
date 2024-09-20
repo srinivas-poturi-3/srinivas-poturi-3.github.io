@@ -164,6 +164,6 @@ function sendEmail(event) {
   const fullname = form.fullname.value;
   const email = form.email.value;
   const message = form.message.value;
-  const mailtoLink = `mailto:example@example.com?subject=Message from ${fullname}&body=Name: ${fullname}%0AEmail: ${email}%0AMessage: ${message}`;
+  const mailtoLink = `mailto:contact@srinivaspoturi.in?subject=Message from ${fullname}&body=Name: ${fullname}%0AEmail: ${email}%0AMessage: ${message}`;
   window.location.href = mailtoLink;
 }
