@@ -157,3 +157,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+function sendEmail(event) {
+  event.preventDefault();
+  const form = event.target;
+  const fullname = form.fullname.value;
+  const email = form.email.value;
+  const message = form.message.value;
+  const mailtoLink = `mailto:example@example.com?subject=Message from ${fullname}&body=Name: ${fullname}%0AEmail: ${email}%0AMessage: ${message}`;
+  window.location.href = mailtoLink;
+}
