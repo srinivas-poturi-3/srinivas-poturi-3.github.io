@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://srinivaspoturi.in/
+
+# Sitemaps
+Sitemap: https://srinivaspoturi.in/sitemap.xml
