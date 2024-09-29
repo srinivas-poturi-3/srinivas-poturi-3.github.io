@@ -1,5 +1,9 @@
-module.exports = {
-    siteUrl: 'https://srinivaspoturi.in/',
-    generateRobotsTxt: true,
-  };
+const nextConfig = {
+  basePath: "/",
+  siteUrl: 'https://srinivas-poturi-3/github.io/',
+  output: "export",
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
   
