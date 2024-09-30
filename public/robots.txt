@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://srinivaspoturi.in/
+Host: https://srinivas-poturi-3.github.io
 
 # Sitemaps
-Sitemap: https://srinivaspoturi.in/sitemap.xml
+Sitemap: https://srinivas-poturi-3.github.io/sitemap.xml
