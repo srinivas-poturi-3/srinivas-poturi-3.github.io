@@ -31,7 +31,7 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js 🏗️
-        run: npx run build
+        run: npx next build
 
       - name: Check out folder
         run: ls 
