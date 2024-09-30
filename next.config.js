@@ -3,8 +3,8 @@
  */
 const nextConfig = {
   output: 'export',
-  basePath: '/srinivas-poturi-3.github.io', // GitHub Pages repo name
-  assetPrefix: 'https://github.com/srinivas-poturi-3', // Prefix for static assets on GitHub Pages
+  basePath: process.env.NODE_ENV === 'production' ? '/repository-name' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/repository-name/' : '', // Prefix for static assets on GitHub Pages
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
