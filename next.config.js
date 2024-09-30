@@ -3,7 +3,6 @@
  */
 const nextConfig = {
   output: 'export',
-  basePath: 'https://github.com/srinivas-poturi-3/srinivas-poturi-3.github.io/tree/gh-pages',
   assetPrefix: 'https://github.com/srinivas-poturi-3/srinivas-poturi-3.github.io/tree/gh-pages', // Prefix for static assets on GitHub Pages
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
